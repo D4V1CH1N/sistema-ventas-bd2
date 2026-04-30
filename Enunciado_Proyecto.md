@@ -30,18 +30,27 @@ erDiagram
     CLIENTE {
         int id_cliente PK
         string nombre
-        string documento_identidad UK
+        string apellido
+        string dni
+        string telefono
+        string email
+        string direccion
+        timestamp fecha_registro
     }
     EMPLEADO {
         int id_empleado PK
         string nombre
+        string apellido
         string cargo
+        string telefono
     }
     VENTA {
         int id_venta PK
         int id_cliente FK
         int id_empleado FK
-        timestamp fecha
+        timestamp fecha_venta
+        string estado
+        string metodo_pago
         decimal total
     }
     DETALLE_VENTA {
@@ -50,14 +59,22 @@ erDiagram
         int id_producto FK
         int cantidad
         decimal precio_unitario
+        decimal subtotal
     }
     PRODUCTO {
         int id_producto PK
         int id_categoria FK
         string nombre
+        string descripcion
+        decimal precio
         int stock
     }
     CATEGORIA {
         int id_categoria PK
         string nombre
+        string descripcion
     }
+}
+## 4. Diagrama Entidad-Relación (ERD)
+
+![Diagrama ERD - Sistema de Ventas](diagrama_erd.png)

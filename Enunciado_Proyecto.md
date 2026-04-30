@@ -74,7 +74,3 @@ erDiagram
         string nombre
         string descripcion
     }
-}
-## 4. Diagrama Entidad-Relación (ERD)
-
-![Diagrama ERD - Sistema de Ventas](diagrama_erd.png)

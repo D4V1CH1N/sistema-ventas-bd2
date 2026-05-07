@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\D4V1CH1N\\Desktop\\SistemaVentasBD\\SistemaVentas\\SistemaVentas.csproj": {}
+    "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\SistemaVentas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\D4V1CH1N\\Desktop\\SistemaVentasBD\\SistemaVentas\\SistemaVentas.csproj": {
+    "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\SistemaVentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\D4V1CH1N\\Desktop\\SistemaVentasBD\\SistemaVentas\\SistemaVentas.csproj",
+        "projectUniqueName": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\SistemaVentas.csproj",
         "projectName": "SistemaVentas",
-        "projectPath": "C:\\Users\\D4V1CH1N\\Desktop\\SistemaVentasBD\\SistemaVentas\\SistemaVentas.csproj",
-        "packagesPath": "C:\\Users\\D4V1CH1N\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\D4V1CH1N\\Desktop\\SistemaVentasBD\\SistemaVentas\\obj\\",
+        "projectPath": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\SistemaVentas.csproj",
+        "packagesPath": "C:\\Users\\GENESIS TARQUI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\D4V1CH1N\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GENESIS TARQUI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

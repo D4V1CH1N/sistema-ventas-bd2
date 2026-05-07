@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|solutionrelative:frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|c:\\users\\genesis tarqui\\sistema-ventas-bd2\\sistemaventas\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|solutionrelative:frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|c:\\users\\genesis tarqui\\sistema-ventas-bd2\\sistemaventas\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|solutionrelative:frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|c:\\users\\genesis tarqui\\sistema-ventas-bd2\\sistemaventas\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|solutionrelative:frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|c:\\users\\genesis tarqui\\sistema-ventas-bd2\\sistemaventas\\frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|solutionrelative:frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|solutionrelative:frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|c:\\users\\genesis tarqui\\sistema-ventas-bd2\\sistemaventas\\frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|solutionrelative:frmregistrarventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|c:\\users\\genesis tarqui\\sistema-ventas-bd2\\sistemaventas\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|solutionrelative:frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|solutionrelative:frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|c:\\users\\genesis tarqui\\sistema-ventas-bd2\\sistemaventas\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|solutionrelative:frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|solutionrelative:frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|c:\\users\\genesis tarqui\\sistema-ventas-bd2\\sistemaventas\\frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|solutionrelative:frmproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|solutionrelative:frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D0CF7B7-88E3-4E72-9E37-680E96519777}|SistemaVentas.csproj|c:\\users\\genesis tarqui\\sistema-ventas-bd2\\sistemaventas\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +46,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "FrmProductos.cs",
+              "DocumentMoniker": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\FrmProductos.cs",
+              "RelativeDocumentMoniker": "FrmProductos.cs",
+              "ToolTip": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\FrmProductos.cs",
+              "RelativeToolTip": "FrmProductos.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAAUwCgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T01:49:09.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmClientes.cs",
+              "DocumentMoniker": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\FrmClientes.cs",
+              "RelativeDocumentMoniker": "FrmClientes.cs",
+              "ToolTip": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\FrmClientes.cs",
+              "RelativeToolTip": "FrmClientes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T01:48:01.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FrmProductos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\FrmProductos.cs",
               "RelativeDocumentMoniker": "FrmProductos.cs",
@@ -54,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "FrmClientes.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\FrmClientes.cs",
               "RelativeDocumentMoniker": "FrmClientes.cs",
@@ -66,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "FrmRegistrarVenta.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\FrmRegistrarVenta.cs",
               "RelativeDocumentMoniker": "FrmRegistrarVenta.cs",
@@ -78,20 +112,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "FrmRegistrarVenta.cs",
               "DocumentMoniker": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\FrmRegistrarVenta.cs",
               "RelativeDocumentMoniker": "FrmRegistrarVenta.cs",
               "ToolTip": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\FrmRegistrarVenta.cs",
               "RelativeToolTip": "FrmRegistrarVenta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAANkAAAAAAAAAAAAAAO8AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T00:57:20.207Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "FrmMenuPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\FrmMenuPrincipal.cs",
               "RelativeDocumentMoniker": "FrmMenuPrincipal.cs",
@@ -103,26 +137,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FrmMenuPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\FrmMenuPrincipal.cs",
               "RelativeDocumentMoniker": "FrmMenuPrincipal.cs",
               "ToolTip": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\FrmMenuPrincipal.cs",
               "RelativeToolTip": "FrmMenuPrincipal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T00:47:53.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ConexionBD.cs",
               "DocumentMoniker": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\ConexionBD.cs",
               "RelativeDocumentMoniker": "ConexionBD.cs",
               "ToolTip": "C:\\Users\\GENESIS TARQUI\\sistema-ventas-bd2\\SistemaVentas\\ConexionBD.cs",
               "RelativeToolTip": "ConexionBD.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T00:43:34.205Z",
               "EditorCaption": ""

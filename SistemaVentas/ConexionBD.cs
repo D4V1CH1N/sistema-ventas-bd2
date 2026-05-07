@@ -6,7 +6,7 @@ namespace SistemaVentas
 {
     public class ConexionBD
     {
-        private readonly string cadenaConexion = "Host=localhost;Port=5432;Database=sistema-ventas-bd2;Username=postgres;Password=1234;";
+        private readonly string cadenaConexion = "Host=localhost;Port=5432;Database=sistema_ventas;Username=postgres;Password=1234;";
         private NpgsqlConnection conexion;
 
         public ConexionBD()

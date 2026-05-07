@@ -22,3 +22,5 @@ C:\Users\GENESIS TARQUI\sistema-ventas-bd2\SistemaVentas\obj\Debug\net8.0-window
 C:\Users\GENESIS TARQUI\sistema-ventas-bd2\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.pdb
 C:\Users\GENESIS TARQUI\sistema-ventas-bd2\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.genruntimeconfig.cache
 C:\Users\GENESIS TARQUI\sistema-ventas-bd2\SistemaVentas\obj\Debug\net8.0-windows\ref\SistemaVentas.dll
+C:\Users\GENESIS TARQUI\sistema-ventas-bd2\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.FrmClientes.resources
+C:\Users\GENESIS TARQUI\sistema-ventas-bd2\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.FrmProductos.resources

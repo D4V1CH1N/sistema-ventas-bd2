@@ -239,7 +239,9 @@ namespace SistemaVentas
                     cmd.Parameters.AddWithValue("@mp", cmbMetodoPago.SelectedItem.ToString());
                     cmd.Parameters.AddWithValue("@est", cmbEstado.SelectedItem.ToString());
                     cmd.Parameters.AddWithValue("@tot", decimal.Parse(txtSubtotal.Text));
-                    idVenta = (long)cmd.ExecuteScalar();
+
+                    // AQUÍ ESTÁ LA CORRECCIÓN: Convert.ToInt64 para evitar el error de Cast
+                    idVenta = Convert.ToInt64(cmd.ExecuteScalar());
                 }
 
                 using (var cmd = new NpgsqlCommand(@"INSERT INTO detalle_venta (id_venta, id_producto, cantidad, precio_unitario) VALUES (@iv,@ip,@cant,@pu)", conn))

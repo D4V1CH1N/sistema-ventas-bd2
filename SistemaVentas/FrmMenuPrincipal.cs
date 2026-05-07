@@ -76,6 +76,7 @@ namespace SistemaVentas
             btnMenuVentas.Click += (s, e) => AbrirFormulario(new FrmRegistrarVenta());
             btnMenuClientes.Click += (s, e) => AbrirFormulario(new FrmClientes());
             btnMenuProductos.Click += (s, e) => AbrirFormulario(new FrmProductos());
+            btnMenuEmpleados.Click += (s, e) => AbrirFormulario(new FrmEmpleados());
 
             lblConexion = new Label { Text = "● BD Conectada", ForeColor = C_SUCCESS, Font = new Font("Segoe UI", 8.5f, FontStyle.Bold), AutoSize = true, Location = new Point(16, 650) };
             pnlSidebar.Controls.Add(lblConexion);

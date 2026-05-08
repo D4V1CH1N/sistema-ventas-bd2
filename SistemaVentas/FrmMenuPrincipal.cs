@@ -225,15 +225,14 @@ namespace SistemaVentas
                 var conn = db.Abrir();
                 if (conn == null) return;
 
-                string sql = @"SELECT v.id_venta AS ""#"",
-                    c.nombre || ' ' || c.apellido AS ""Cliente"",
-                    v.fecha_venta::DATE AS ""Fecha"",
-                    v.metodo_pago AS ""Método"",
-                    v.estado AS ""Estado"",
-                    v.total AS ""Total (Bs.)""
-                    FROM venta v
-                    JOIN cliente c ON c.id_cliente = v.id_cliente
-                    ORDER BY v.fecha_venta DESC LIMIT 20";
+                string sql = @"SELECT id_venta AS ""#"", 
+                cliente AS ""Cliente"", 
+                fecha_venta::DATE AS ""Fecha"", 
+                vendedor AS ""Vendedor"", 
+                estado AS ""Estado"", 
+                total AS ""Total (Bs.)"" 
+                FROM vw_reporte_ventas 
+                ORDER BY fecha_venta DESC LIMIT 20";
 
                 var da = new Npgsql.NpgsqlDataAdapter(sql, conn);
                 var dt = new System.Data.DataTable();

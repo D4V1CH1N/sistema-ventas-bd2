@@ -33,9 +33,8 @@ namespace SistemaVentas
 
         void ConstruirUI()
         {
-            // EL TRUCO PARA LAPTOPS
             this.AutoScaleMode = AutoScaleMode.None;
-            this.ClientSize = new Size(680, 620); // Tamaño interno exacto
+            this.ClientSize = new Size(680, 620);
 
             this.Text = "Registrar Nueva Venta";
             this.StartPosition = FormStartPosition.CenterScreen;
@@ -45,13 +44,11 @@ namespace SistemaVentas
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
 
-            // HEADER (Barra superior morada de lado a lado)
             var pnlHeader = new Panel { Location = new Point(0, 0), Size = new Size(680, 60), BackColor = C_ACCENT };
             var lblHeader = new Label { Text = "+  Registrar Nueva Venta", ForeColor = Color.White, Font = new Font("Segoe UI", 13f, FontStyle.Bold), AutoSize = true, Location = new Point(20, 18) };
             pnlHeader.Controls.Add(lblHeader);
             this.Controls.Add(pnlHeader);
 
-            // CARD PRINCIPAL (Caja oscura central)
             var pnlCard = new Panel { Location = new Point(20, 80), Size = new Size(640, 460), BackColor = C_BG_CARD };
             this.Controls.Add(pnlCard);
 
@@ -103,7 +100,6 @@ namespace SistemaVentas
             txtSubtotal.ForeColor = C_SUCCESS;
             txtSubtotal.Font = new Font("Segoe UI", 11f, FontStyle.Bold);
 
-            // BOTONES (Ubicados dentro del Card)
             btnCancelar = new Button { Text = "Cancelar", Location = new Point(130, 400), Size = new Size(180, 40), FlatStyle = FlatStyle.Flat, ForeColor = C_TEXT_SEC, BackColor = C_BG_DARK, Font = new Font("Segoe UI", 10f), Cursor = Cursors.Hand };
             btnCancelar.FlatAppearance.BorderSize = 1;
             btnCancelar.FlatAppearance.BorderColor = C_BORDER;
@@ -117,7 +113,6 @@ namespace SistemaVentas
             btnGuardar.Click += BtnGuardar_Click;
             pnlCard.Controls.Add(btnGuardar);
 
-            // TOTAL BAR (Barra morada pegada matemáticamente al fondo)
             pnlResumen = new Panel { Location = new Point(0, 560), Size = new Size(680, 60), BackColor = C_ACCENT };
             var lblTotalTxt = new Label { Text = "TOTAL A PAGAR:", ForeColor = Color.White, Font = new Font("Segoe UI", 11f, FontStyle.Bold), AutoSize = true, Location = new Point(20, 20) };
 
@@ -231,30 +226,23 @@ namespace SistemaVentas
                 var db = new ConexionBD();
                 var conn = db.Abrir();
 
-                long idVenta;
-                using (var cmd = new NpgsqlCommand(@"INSERT INTO venta (id_cliente, id_empleado, metodo_pago, estado, total) VALUES (@ic,@ie,@mp,@est,@tot) RETURNING id_venta", conn))
+                string sql = "CALL pr_registrar_venta(@ic, @ie, @mp, @tot, @ip, @cant, @pu)";
+
+                using (var cmd = new NpgsqlCommand(sql, conn))
                 {
                     cmd.Parameters.AddWithValue("@ic", cliente.Id);
                     cmd.Parameters.AddWithValue("@ie", empleado.Id);
                     cmd.Parameters.AddWithValue("@mp", cmbMetodoPago.SelectedItem.ToString());
-                    cmd.Parameters.AddWithValue("@est", cmbEstado.SelectedItem.ToString());
                     cmd.Parameters.AddWithValue("@tot", decimal.Parse(txtSubtotal.Text));
-
-                    // AQUÍ ESTÁ LA CORRECCIÓN: Convert.ToInt64 para evitar el error de Cast
-                    idVenta = Convert.ToInt64(cmd.ExecuteScalar());
-                }
-
-                using (var cmd = new NpgsqlCommand(@"INSERT INTO detalle_venta (id_venta, id_producto, cantidad, precio_unitario) VALUES (@iv,@ip,@cant,@pu)", conn))
-                {
-                    cmd.Parameters.AddWithValue("@iv", idVenta);
                     cmd.Parameters.AddWithValue("@ip", producto.Id);
                     cmd.Parameters.AddWithValue("@cant", (int)nudCantidad.Value);
                     cmd.Parameters.AddWithValue("@pu", producto.Precio);
+
                     cmd.ExecuteNonQuery();
                 }
 
                 db.Cerrar();
-                MessageBox.Show($"Venta #{idVenta} registrada correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Venta registrada correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
             catch (Exception ex)

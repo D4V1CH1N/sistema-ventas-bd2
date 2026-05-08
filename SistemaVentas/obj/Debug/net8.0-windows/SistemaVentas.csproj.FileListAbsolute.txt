@@ -25,3 +25,30 @@ C:\Users\GENESIS TARQUI\sistema-ventas-bd2\SistemaVentas\obj\Debug\net8.0-window
 C:\Users\GENESIS TARQUI\sistema-ventas-bd2\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.FrmClientes.resources
 C:\Users\GENESIS TARQUI\sistema-ventas-bd2\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.FrmProductos.resources
 C:\Users\GENESIS TARQUI\sistema-ventas-bd2\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.FrmEmpleados.resources
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\bin\Debug\net8.0-windows\SistemaVentas.exe
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\bin\Debug\net8.0-windows\SistemaVentas.deps.json
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\bin\Debug\net8.0-windows\SistemaVentas.runtimeconfig.json
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\bin\Debug\net8.0-windows\SistemaVentas.dll
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\bin\Debug\net8.0-windows\SistemaVentas.pdb
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.csproj.AssemblyReference.cache
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.FrmClientes.resources
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.FrmEmpleados.resources
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.FrmMenuPrincipal.resources
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.FrmProductos.resources
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.FrmRegistrarVenta.resources
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.csproj.GenerateResource.cache
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.AssemblyInfoInputs.cache
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.AssemblyInfo.cs
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.csproj.CoreCompileInputs.cache
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.sourcelink.json
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaV.1E85D3D6.Up2Date
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.dll
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\refint\SistemaVentas.dll
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.pdb
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\SistemaVentas.genruntimeconfig.cache
+C:\Users\D4V1CH1N\Desktop\SistemaVentasBD\SistemaVentas\obj\Debug\net8.0-windows\ref\SistemaVentas.dll

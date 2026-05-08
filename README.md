@@ -163,3 +163,13 @@ EMPLEADO   (1) ──────► (N)  VENTA
 ![Diagrama del Sistema](DIAGRAMA.png)
 
 ![Esquema de la BD](diagrama_erd.png)
+
+
+## 🚀 Optimizaciones de Base de Datos (PostgreSQL)
+Este proyecto incluye una capa de base de datos robusta con:
+- **Triggers**: Automatización de stock y auditoría de precios.
+- **Stored Procedures**: Registro transaccional de ventas (Atomicidad).
+- **Views**: Consultas optimizadas para el Dashboard.
+- **Indexes**: Búsqueda acelerada por DNI, Apellido y Nombre de producto.
+
+*Los scripts de configuración se encuentran en la carpeta /BaseDeDatos*
